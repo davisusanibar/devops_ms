@@ -29,7 +29,7 @@ public class ProductoController {
 	}
 	
 	@RequestMapping(value="/guardar", method=RequestMethod.POST)
-	public Producto guardarAlumno(@RequestBody Producto producto){		
+	public Producto guardarProducto(@RequestBody Producto producto){		
 		return productoBusiness.guardarActualizarProducto(producto);
 	}
 	
